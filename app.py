@@ -77,7 +77,7 @@ st.markdown("""
 # =========================
 st.markdown("""
 <div class="card">
-    <div class="main-title">🐔 Prediksi Produksi Daging Unggas</div>
+    <div class="main-title">🐔 Prediksi Produksi Daging Unggas di Kota Subang</div>
     <div class="sub-title">
         Aplikasi Machine Learning untuk prediksi produksi daging unggas
         dan analisis eksploratif data (EDA).
@@ -184,3 +184,4 @@ with tab3:
     st.subheader("📁 Preview Dataset")
 
     st.dataframe(df.head())
+
