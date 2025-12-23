@@ -9,7 +9,7 @@ import seaborn as sns
 # PAGE CONFIG
 # =========================
 st.set_page_config(
-    page_title="Prediksi Produksi Daging Unggas",
+    page_title="Prediksi Produksi Daging Unggas di Kota Subang",
     page_icon="🐔",
     layout="wide"
 )
@@ -105,7 +105,7 @@ with tab1:
 
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Ayam Kampung", f"{ayam_kampung:,} ekor")
-    c2.metric("Ayam Petelor", f"{ayam_petelor:,}ekor")
+    c2.metric("Ayam Petelor", f"{ayam_petelor:,} ekor")
     c3.metric("Ayam Pedaging", f"{ayam_pedaging:,} ekor")
     c4.metric("Itik", f"{itik:,} ekor")
 
@@ -182,4 +182,5 @@ with tab2:
 # =====================================================
 with tab3:
     st.subheader("📁 Preview Dataset")
+
     st.dataframe(df.head())
